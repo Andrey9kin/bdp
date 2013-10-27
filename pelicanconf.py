@@ -28,6 +28,9 @@ THEME = 'Just-Read'
 
 TWITTER_USERNAME = 'Andrey9kin'
 
+# Enable disqus powered comments
+DISQUS_SITENAME = "braindumppoint"
+
 ARTICLE_URL = 'archives/{slug}/'
 ARTICLE_SAVE_AS = 'archives/{slug}/index.html'
 
