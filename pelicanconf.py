@@ -15,12 +15,21 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/Andrey9kin'),
+          ('facebook', 'https://www.facebook.com/andrey.devyatkin'),
+          ('github', 'https://github.com/andrey9kin'),
+          ('linkedin', 'http://www.linkedin.com/in/andreydevyatkin'),
+          ('google-plus', 'https://plus.google.com/111714255902550264848'),
+          )
 
 DEFAULT_PAGINATION = 10
 
 THEME = 'Just-Read'
+
+TWITTER_USERNAME = 'Andrey9kin'
+
+ARTICLE_URL = 'archives/{slug}/'
+ARTICLE_SAVE_AS = 'archives/{slug}/index.html'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
